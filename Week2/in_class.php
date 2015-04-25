@@ -18,7 +18,7 @@
 		echo nl2br("\r\nTotal Salary will be " . SalaryAfterTax($salary, $mnTax) . " in " . $myState); //use concatentation to print out
 		echo nl2br("\r\nTotal Salary will be  $var in $myState"); //pass variables straight into the string
 		echo nl2br('<br/>\r\nTotal Salary will be  $var in $myState');
-		printf("<br/>Total salary will be %u in the state of %s.", $var, $myState); //printf prints a formatted string
+		printf("<br/>Total salary will be %f in the state of %s.", $var, $myState); //printf prints a formatted string
 	}
 	if ($yourState = "Wisconsin")
 	{
@@ -42,8 +42,6 @@
 		$x = 1 - $tax;
 		return $total = $salary * $x;
 	}
-
-
 
 
 	/*for ($i = 0; $i <= 10; $i++) 
