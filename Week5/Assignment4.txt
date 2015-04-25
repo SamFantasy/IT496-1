@@ -3,7 +3,7 @@ Week 5
 40 Points
 Due: Thurs 4/30 @ 3:59pm
 
-1. You are to branch my IT496/Week5 repo and name your branch (e.g. Week5-yourusername). See this for help: https://help.github.com/articles/creating-and-deleting-branches-within-your-repository/
+1. You are to branch my IT496 master branch and name your branch (e.g. Week5-yourusername). See this for help: https://help.github.com/articles/creating-and-deleting-branches-within-your-repository/
 
 2. Clean and run database script.txt file. Database should be named Store with one table named Inventory. Clean script to match the provided Inventory object.
 
@@ -11,7 +11,7 @@ Due: Thurs 4/30 @ 3:59pm
 
 4. One function to rename date_received column to date_updated.
 
-5. One function to trim the description column to a length of 20.
+5. One function to trim the description column to a length of 20. (You don’t have to update varchar(20) but that is potentially BONUS 3).
 
 6. One function to remove the timestamp from date_received.
 
